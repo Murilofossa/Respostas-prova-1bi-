@@ -36,9 +36,9 @@ let idade=[];
   let tipo1 = classificarIngresso(pedido1.idade);
   let valor1 = 29.9;
   console.log("Cliente atendido:", pedido1.cliente);
-  console.log("Tipo de ingresso:", classificarIngresso);
+  console.log("Tipo de ingresso:", tipo1);
   console.log("Valor da conta: R$", valor1.toFixed(2));
-  console.log("registrarPedido");
+  console.log(pedido1);
   
   // Atendimento do segundo pedido
   let pedido2 = pedidos.shift();
@@ -47,7 +47,7 @@ let idade=[];
   console.log("Cliente atendido:", pedido2.cliente);
   console.log("Tipo de ingresso:", tipo2);
   console.log("Valor da conta: R$", valor2.toFixed(2));
-  console.log("registrarPedido");
+  console.log("Próximo cliente");
   
   // Atendimento do terceiro pedido
   let pedido3 = pedidos.shift();
@@ -56,7 +56,7 @@ let idade=[];
   console.log("Cliente atendido:", pedido3.cliente);
   console.log("Tipo de ingresso:", tipo3);
   console.log("Valor da conta: R$", valor3.toFixed(2));
-  console.log("registrarPedido");
+  console.log("próximo cliente");
   
   // 6. Exiba a quantidade de pedidos restantes
   console.log("Pedidos restantes:", pedidos);
